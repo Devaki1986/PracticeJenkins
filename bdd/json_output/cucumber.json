@@ -1,0 +1,447 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-12-13T09:01:34.743Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2002600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefinations.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "login page",
+        "description": "",
+        "id": "test-login;login-page;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefinations.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User already in login \"https://www.sololearn.com/en/compiler-playground/java\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.sololearn.com/en/compiler-playground/java",
+                  "offset": 23
+                }
+              ],
+              "location": "Stepdefinations.loginpage.user_already_in_login_page(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter the details",
+            "match": {
+              "location": "Stepdefinations.loginpage.user_enter_the_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User validate the details",
+            "match": {
+              "location": "Stepdefinations.loginpage.user_validate_the_details()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@cucumber"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-12-13T09:01:34.816Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefinations.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "login page",
+        "description": "",
+        "id": "test-login;login-page;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1001600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefinations.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User already in login \"https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-remote-driver/4.16.1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-remote-driver/4.16.1",
+                  "offset": 23
+                }
+              ],
+              "location": "Stepdefinations.loginpage.user_already_in_login_page(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter the details",
+            "match": {
+              "location": "Stepdefinations.loginpage.user_enter_the_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User validate the details",
+            "match": {
+              "location": "Stepdefinations.loginpage.user_validate_the_details()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@cucumber"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-12-13T09:01:34.825Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefinations.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "login page",
+        "description": "",
+        "id": "test-login;login-page;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefinations.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User already in login \"https://stackoverflow.com/questions/74533830/io-cucumber-java-pendingexception-todo-implement-me\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://stackoverflow.com/questions/74533830/io-cucumber-java-pendingexception-todo-implement-me",
+                  "offset": 23
+                }
+              ],
+              "location": "Stepdefinations.loginpage.user_already_in_login_page(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter the details",
+            "match": {
+              "location": "Stepdefinations.loginpage.user_enter_the_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User validate the details",
+            "match": {
+              "location": "Stepdefinations.loginpage.user_validate_the_details()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@cucumber"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-12-13T09:01:34.835Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1005300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefinations.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "login page gmail",
+        "description": "",
+        "id": "test-login;login-page-gmail",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefinations.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User is in home page",
+            "match": {
+              "location": "Stepdefinations.loginpage.user_is_in_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enter the details",
+            "match": {
+              "location": "Stepdefinations.loginpage.user_enter_the_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 999900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User validate the details",
+            "match": {
+              "location": "Stepdefinations.loginpage.user_validate_the_details()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@cucumber"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-12-13T09:01:34.843Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefinations.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "API Get",
+        "description": "",
+        "id": "test-login;api-get",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefinations.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User send the Get Request",
+            "match": {
+              "location": "Stepdefinations.loginpage.user_send_the_get_request()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user get the response",
+            "match": {
+              "location": "Stepdefinations.loginpage.user_get_the_response()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user validate the response for get",
+            "match": {
+              "location": "Stepdefinations.loginpage.user_validate_the_response()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@api"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-12-13T09:01:34.849Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefinations.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "API post",
+        "description": "",
+        "id": "test-login;api-post",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefinations.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 988000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User send the post Request",
+            "match": {
+              "location": "Stepdefinations.loginpage.user_send_the_post_request()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000600,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user get the response",
+            "match": {
+              "location": "Stepdefinations.loginpage.user_get_the_response()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user validate the response for post",
+            "match": {
+              "location": "Stepdefinations.loginpage.user_validate_the_response_post()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test login",
+    "description": "//Background: webdriver setup\n//Given user setup driver ",
+    "id": "test-login",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/Features/Login.feature",
+    "tags": []
+  }
+]

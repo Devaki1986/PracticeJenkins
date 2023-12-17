@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="0.408">
+    <testcase classname="Test login" name="login page" time="0.063">
+        <system-out><![CDATA[Given User already in login "https://www.sololearn.com/en/compiler-playground/java".passed
+When User enter the details.................................................passed
+Then User validate the details..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test login" name="login page 2" time="0.003">
+        <system-out><![CDATA[Given User already in login "https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-remote-driver/4.16.1".passed
+When User enter the details.................................................passed
+Then User validate the details..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test login" name="login page 3" time="0.004">
+        <system-out><![CDATA[Given User already in login "https://stackoverflow.com/questions/74533830/io-cucumber-java-pendingexception-todo-implement-me".passed
+When User enter the details.................................................passed
+Then User validate the details..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test login" name="login page gmail" time="0.005">
+        <system-out><![CDATA[Given User is in home page..................................................passed
+When User enter the details.................................................passed
+Then User validate the details..............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test login" name="API Get" time="0.004">
+        <system-out><![CDATA[Given User send the Get Request.............................................passed
+When user get the response..................................................passed
+Then user validate the response for get.....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test login" name="API post" time="0.004">
+        <system-out><![CDATA[Given User send the post Request............................................passed
+When user get the response..................................................passed
+Then user validate the response for post....................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
