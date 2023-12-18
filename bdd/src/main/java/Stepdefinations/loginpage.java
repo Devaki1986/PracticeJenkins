@@ -30,6 +30,11 @@ import org.json.JSONObject;
 public class loginpage {
 	
 	 WebDriver driver;
+	 
+	 public  loginpage()
+	 {
+		 driver = HelpersClass.getDriver();
+	 }
 	 public static Response res ;
 	 JSONObject data = new JSONObject();
 	 private static final String USER_ID = "9b5f49ab-eea9-45f4-9d66-bcf56a531b85";

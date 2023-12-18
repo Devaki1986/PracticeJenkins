@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="0.408">
-    <testcase classname="Test login" name="login page" time="0.063">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="8" time="0.151">
+    <testcase classname="Test login" name="login page" time="0.061">
         <system-out><![CDATA[Given User already in login "https://www.sololearn.com/en/compiler-playground/java".passed
 When User enter the details.................................................passed
 Then User validate the details..............................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Test login" name="login page 2" time="0.003">
+    <testcase classname="Test login" name="login page 2" time="0.004">
         <system-out><![CDATA[Given User already in login "https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-remote-driver/4.16.1".passed
 When User enter the details.................................................passed
 Then User validate the details..............................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Test login" name="login page 3" time="0.004">
+    <testcase classname="Test login" name="login page 3" time="0.002">
         <system-out><![CDATA[Given User already in login "https://stackoverflow.com/questions/74533830/io-cucumber-java-pendingexception-todo-implement-me".passed
 When User enter the details.................................................passed
 Then User validate the details..............................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Test login" name="login page gmail" time="0.005">
+    <testcase classname="Test login" name="login page gmail" time="0.002">
         <system-out><![CDATA[Given User is in home page..................................................passed
 When User enter the details.................................................passed
 Then User validate the details..............................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Test login" name="API Get" time="0.004">
+    <testcase classname="Test login" name="API Get" time="0.003">
         <system-out><![CDATA[Given User send the Get Request.............................................passed
 When user get the response..................................................passed
 Then user validate the response for get.....................................passed
@@ -34,6 +34,15 @@ Then user validate the response for get.....................................pass
         <system-out><![CDATA[Given User send the post Request............................................passed
 When user get the response..................................................passed
 Then user validate the response for post....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test login" name="User generates token for Authorisation" time="0.002">
+        <system-out><![CDATA[Given I am an authorized user...............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test login" name="the Authorized user can Add and Remove a book." time="0.001">
+        <system-out><![CDATA[Given A list of books are available.........................................passed
+When I add a book to my reading list........................................passed
 ]]></system-out>
     </testcase>
 </testsuite>

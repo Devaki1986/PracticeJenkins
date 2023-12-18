@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2023-12-13T09:01:34.743Z",
+        "start_timestamp": "2023-12-18T09:56:52.248Z",
         "before": [
           {
             "result": {
-              "duration": 2002600,
+              "duration": 1956300,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,6 @@
         "steps": [
           {
             "result": {
-              "duration": 1000800,
               "status": "passed"
             },
             "line": 7,
@@ -80,10 +79,11 @@
         ]
       },
       {
-        "start_timestamp": "2023-12-13T09:01:34.816Z",
+        "start_timestamp": "2023-12-18T09:56:52.317Z",
         "before": [
           {
             "result": {
+              "duration": 998700,
               "status": "passed"
             },
             "match": {
@@ -98,7 +98,7 @@
         "after": [
           {
             "result": {
-              "duration": 1001600,
+              "duration": 997400,
               "status": "passed"
             },
             "match": {
@@ -128,6 +128,7 @@
           },
           {
             "result": {
+              "duration": 1003100,
               "status": "passed"
             },
             "line": 8,
@@ -156,7 +157,7 @@
         ]
       },
       {
-        "start_timestamp": "2023-12-13T09:01:34.825Z",
+        "start_timestamp": "2023-12-18T09:56:52.324Z",
         "before": [
           {
             "result": {
@@ -231,11 +232,10 @@
         ]
       },
       {
-        "start_timestamp": "2023-12-13T09:01:34.835Z",
+        "start_timestamp": "2023-12-18T09:56:52.331Z",
         "before": [
           {
             "result": {
-              "duration": 1005300,
               "status": "passed"
             },
             "match": {
@@ -284,7 +284,6 @@
           },
           {
             "result": {
-              "duration": 999900,
               "status": "passed"
             },
             "line": 20,
@@ -302,7 +301,7 @@
         ]
       },
       {
-        "start_timestamp": "2023-12-13T09:01:34.843Z",
+        "start_timestamp": "2023-12-18T09:56:52.337Z",
         "before": [
           {
             "result": {
@@ -363,18 +362,14 @@
             },
             "keyword": "Then "
           }
-        ],
-        "tags": [
-          {
-            "name": "@api"
-          }
         ]
       },
       {
-        "start_timestamp": "2023-12-13T09:01:34.849Z",
+        "start_timestamp": "2023-12-18T09:56:52.343Z",
         "before": [
           {
             "result": {
+              "duration": 1003500,
               "status": "passed"
             },
             "match": {
@@ -401,7 +396,6 @@
         "steps": [
           {
             "result": {
-              "duration": 988000,
               "status": "passed"
             },
             "line": 30,
@@ -413,7 +407,6 @@
           },
           {
             "result": {
-              "duration": 1000600,
               "status": "passed"
             },
             "line": 31,
@@ -435,13 +428,118 @@
             "keyword": "Then "
           }
         ]
+      },
+      {
+        "start_timestamp": "2023-12-18T09:56:52.352Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefinations.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "User generates token for Authorisation",
+        "description": "",
+        "id": "test-login;user-generates-token-for-authorisation",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefinations.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I am an authorized user",
+            "match": {
+              "location": "Stepdefinations.loginpage.get_token()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Background"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-12-18T09:56:52.358Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefinations.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 41,
+        "name": "the Authorized user can Add and Remove a book.",
+        "description": "",
+        "id": "test-login;the-authorized-user-can-add-and-remove-a-book.",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "Stepdefinations.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "A list of books are available",
+            "match": {
+              "location": "Stepdefinations.loginpage.list_books()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I add a book to my reading list",
+            "match": {
+              "location": "Stepdefinations.loginpage.adding_book()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@api"
+          }
+        ]
       }
     ],
     "name": "Test login",
     "description": "//Background: webdriver setup\n//Given user setup driver ",
     "id": "test-login",
     "keyword": "Feature",
-    "uri": "file:src/main/resources/Features/Login.feature",
+    "uri": "file:///D:/Workspace/bdd/src/main/resources/Features/Login.feature",
     "tags": []
   }
 ]

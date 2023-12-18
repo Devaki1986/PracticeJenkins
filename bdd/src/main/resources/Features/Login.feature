@@ -1,6 +1,7 @@
 Feature: Test login
-//Background: webdriver setup
-//Given user setup driver 
+
+ Background: webdriver setup
+	 Given user setup driver 
 
 	@cucumber
   Scenario Outline: login page
@@ -10,8 +11,8 @@ Feature: Test login
     Examples:
     |page|
     |https://www.sololearn.com/en/compiler-playground/java|
-    |https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-remote-driver/4.16.1|
-    |https://stackoverflow.com/questions/74533830/io-cucumber-java-pendingexception-todo-implement-me|   
+    #|https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-remote-driver/4.16.1|
+    #|https://stackoverflow.com/questions/74533830/io-cucumber-java-pendingexception-todo-implement-me|   
     
     @cucumber
     Scenario: login page gmail
@@ -31,10 +32,10 @@ Feature: Test login
     When user get the response
     Then user validate the response for post
     
-   @Background
-  Scenario: User generates token for Authorisation
+ # @Background
+# Scenario: User generates token for Authorisation
 
-Given I am an authorized user
+#Given I am an authorized user
 
 
 @api
