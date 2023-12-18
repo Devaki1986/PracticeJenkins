@@ -5,9 +5,9 @@
     <groupId>cucumber</groupId>
     <artifactId>bdd</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>war</packaging>
-
-    <name>MVC 1.0 Blank Project (from https://github.com/making/mvc-1.0-blank)</name>
+    <packaging>pom</packaging>
+    <name>Root POM</name>
+    <url>https://github.com/Devaki1986/PracticeJenkins/blob/master/bdd/pom.xml</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
