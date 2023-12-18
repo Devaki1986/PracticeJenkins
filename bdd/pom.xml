@@ -5,9 +5,8 @@
     <groupId>cucumber</groupId>
     <artifactId>bdd</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>pom</packaging>
-    <name>Root POM</name>
-    <url>https://github.com/Devaki1986/PracticeJenkins/blob/master/bdd/pom.xml</url>
+    <packaging>war</packaging>
+
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
