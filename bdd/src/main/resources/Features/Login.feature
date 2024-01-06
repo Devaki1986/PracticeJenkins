@@ -2,9 +2,7 @@ Feature: Test login
 
  #Background: webdriver setup
 	# Given user setup driver 
-
- 
-    
+	
     @cucumber
     Scenario: login page gmail
     Given User is in home page
