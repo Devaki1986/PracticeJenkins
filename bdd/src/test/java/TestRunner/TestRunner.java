@@ -18,7 +18,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 		monochrome = true, 
 		strict = true,
 		dryRun = false,
-	    tags ="@cucumber"			
+	    tags ="@cucumber,@api"		
 		)
 public class TestRunner extends AbstractTestNGCucumberTests {
 	@Override
