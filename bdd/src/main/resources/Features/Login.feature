@@ -15,7 +15,6 @@ Feature: Test login
     When user get the response
     Then user validate the response for get
     
-   
     Scenario: API post
     Given User send the post Request
     When user get the response
