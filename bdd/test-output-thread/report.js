@@ -1,47 +1,47 @@
 $(document).ready(function() {
 CucumberHTML.timelineItems.pushArray([
   {
-    "id": "1d533053-97ac-4c56-97aa-f512b13ad666",
+    "id": "50ec6aa6-6957-4a8f-a242-1801c3237c6b",
+    "feature": "Test login",
+    "scenario": "login page",
+    "start": 1704541900388,
+    "group": 1,
+    "content": "",
+    "tags": "@cucumber,",
+    "end": 1704541908937,
+    "className": "passed"
+  },
+  {
+    "id": "4bbe838d-a041-437e-99cd-e15c19b98e2e",
+    "feature": "Test login",
+    "scenario": "login page",
+    "start": 1704541908943,
+    "group": 1,
+    "content": "",
+    "tags": "@cucumber,",
+    "end": 1704541917358,
+    "className": "passed"
+  },
+  {
+    "id": "823e53df-ec86-436d-a0c6-c4f988163480",
     "feature": "Test login",
     "scenario": "login page gmail",
-    "start": 1704534057419,
+    "start": 1704541917366,
     "group": 1,
     "content": "",
     "tags": "@cucumber,",
-    "end": 1704534067562,
+    "end": 1704541927185,
     "className": "passed"
   },
   {
-    "id": "5c4a9226-8c2a-439d-a61b-2833665d3d37",
+    "id": "92b8c875-14ac-47d7-827f-7b7d2e803d83",
     "feature": "Test login",
     "scenario": "login page",
-    "start": 1704534017261,
+    "start": 1704541885848,
     "group": 1,
     "content": "",
     "tags": "@cucumber,",
-    "end": 1704534035733,
-    "className": "passed"
-  },
-  {
-    "id": "072c2c88-0f3a-4880-bfbb-e351ed224cf9",
-    "feature": "Test login",
-    "scenario": "login page",
-    "start": 1704534046505,
-    "group": 1,
-    "content": "",
-    "tags": "@cucumber,",
-    "end": 1704534057415,
-    "className": "passed"
-  },
-  {
-    "id": "acda0749-f80a-4a97-9ae8-ba2e74f43b2b",
-    "feature": "Test login",
-    "scenario": "login page",
-    "start": 1704534035756,
-    "group": 1,
-    "content": "",
-    "tags": "@cucumber,",
-    "end": 1704534046494,
+    "end": 1704541900372,
     "className": "passed"
   }
 ]);

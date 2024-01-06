@@ -1,7 +1,7 @@
 Feature: Test login
 
- Background: webdriver setup
-	 Given user setup driver 
+ #Background: webdriver setup
+	# Given user setup driver 
 
  
     
