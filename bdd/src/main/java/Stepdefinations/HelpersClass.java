@@ -3,6 +3,9 @@ package Stepdefinations;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 
  
 public class HelpersClass {
@@ -14,8 +17,13 @@ public class HelpersClass {
      
      private HelpersClass() {
           
-    	 System.setProperty("webdriver.chrome.driver","D:\\Download\\chromedriver-win64 (1)\\chromedriver-win64\\chromedriver.exe");
-            driver = new ChromeDriver();
+    	// System.setProperty("webdriver.chrome.driver","D:\\Download\\chromedriver-win64 (1)\\chromedriver-win64\\chromedriver.exe");
+    	 WebDriverManager.chromedriver().setup();
+    	 ChromeOptions options = new ChromeOptions(); 
+    	 options.addArguments("--remote-allow-origins=*");
+    	 options.addArguments("--disable notifications");
+    	 driver = new ChromeDriver(options);
+            		
             driver.manage().timeouts().implicitlyWait(TIMEOUT,TimeUnit.SECONDS);
             driver.manage().window().maximize();
  

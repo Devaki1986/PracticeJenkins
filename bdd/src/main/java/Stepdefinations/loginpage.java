@@ -21,6 +21,7 @@ import java.util.List;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.json.JSONArray;
@@ -58,6 +59,8 @@ public class loginpage {
 			
 			RequestSpecification  req = RestAssured.given();
 			req.header("Content-Type", "application/json");
+			
+			
 			Response res = req.body(obj.toString())
 					.post("/Account/v1/GenerateToken");
 		token = res.jsonPath().getString("token");

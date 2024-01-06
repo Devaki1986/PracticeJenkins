@@ -25,17 +25,19 @@ public class Hooks {
 	 
 	        //validate if scenario has failed
 	        
-	            final byte[] screenshot = ((TakesScreenshot) HelpersClass.getDriver()).getScreenshotAs(OutputType.BYTES);
-	            scenario.attach(screenshot, "image/png", scenario.getName()); 
+	         //   final byte[] screenshot = ((TakesScreenshot) HelpersClass.getDriver()).getScreenshotAs(OutputType.BYTES);
+	         //   scenario.attach(screenshot, "image/png", scenario.getName()); 
 	          
 	     
 	            HelpersClass.tearDown();
 	 }
 	
 	/*@BeforeStep
-	public void Beforestep()
+	public void Beforestep(Scenario scenario)
 	{
+
 		System.out.println("it will run before setp Hooks");
+		
 	}
 	
 	@AfterStep
